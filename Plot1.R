@@ -1,3 +1,4 @@
+#GetData.R downloads (if necessary) and reads the data into R.
 source("GetData.R")
 
 myData <- freshData()

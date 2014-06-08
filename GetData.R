@@ -1,3 +1,4 @@
+#GetData.R downloads (if necessary) and reads the data into R.
 freshData <- function() {
     if(!file.exists('household_power_consumption.txt')){
         print("downloading data...")
