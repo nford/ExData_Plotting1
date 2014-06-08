@@ -1,6 +1,6 @@
 source("./GetData.R")
 
-myData <- if(!is.null(myData)) myData else freshData()
+myData <- freshData()
 
 
 png("Plot4.png", width = 480, height = 480, units = "px")
